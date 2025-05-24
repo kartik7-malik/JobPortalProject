@@ -32,3 +32,10 @@ javac --module-path /Users/kartikmalik/Downloads/javafx-sdk-24.0.1/lib \
 java --module-path /Users/kartikmalik/Downloads/javafx-sdk-24.0.1/lib \
      --add-modules javafx.controls \
      -cp bin ui.Login
+
+## Note for Other Systems
+
+	•	If you’re using Windows, use backslashes (\) in paths.
+	•	If you’re using IntelliJ or Eclipse, add JavaFX and JDBC via the project/module settings instead of using the command line.
+
+⸻
