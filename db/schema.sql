@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS job_portal;
+USE job_portal;
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(50),
+  password VARCHAR(255),
+  role ENUM('JOB_SEEKER', 'RECRUITER', 'ADMIN')
+);
